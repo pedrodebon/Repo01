@@ -12,6 +12,7 @@
 * Subir todos los cambios al repositorio remoto
   * Local a Remoto
   * Remoto a Local
+* Clonación de repositorio desde remoto a local
   
  ---
   ### Creación del repositorio en local y el readme.md
@@ -71,15 +72,30 @@
   El ultimo paso es mostrar los resultados de los cambios que hemos ido haciendo desde el repositorio local al remoto y viceversa. 
   
   #### Local a Remoto
-  
+  Ahora subiremos todas las capturas que hemos hecho para este readme.md desde local a remoto con los comandos que antes hemos usado y mostrando el resultado
+  de cada en la siguiente captura:  
+  ![No se ha podido cargar la imagen](https://github.com/pedrodebon/Repo01/blob/main/Img/14.%20subida%20a%20la%20nube.JPG?raw=true "")
   
   #### Remoto a Local
   GitHub te permite modificar ciertos archivos desde su pagina como los .txt o .md. En la siguiente captura, he hecho una serie de modificaciones al 
   archivo readme.md y con el comando Git Pull traere todos los cambios que he hecho en remoto hasta el local. 
   
   Ejemplo de modificacion desde GitHub:  
-  ![No se ha podido cargar la imagen](https://github.com/pedrodebon/Repo01/blob/main/Img/11.%20conexion.JPG?raw=true "")
-  
-  El resultado que muestra Git Bash tras el pull con los nuevos cambios.  
   ![No se ha podido cargar la imagen](https://github.com/pedrodebon/Repo01/blob/main/Img/12.%20remoto%20a%20local.JPG?raw=true "")
   
+  El resultado que muestra Git Bash tras el pull con los nuevos cambios.  
+  ![No se ha podido cargar la imagen](https://github.com/pedrodebon/Repo01/blob/main/Img/13.%20pull.JPG?raw=true "")
+  
+  ### Clonación de repositorio desde remoto a local
+  Ya tenemos un repositorio creado y ahora nos pondremos en el caso de que hayamos perdido el, sin importar el motivo, el repositorio en local. Vamos a clonar 
+  desde nuestro repositorio remoto al local. 
+  
+  Primero, copiaremos el codigo del repositorio desde la pagina del repositorio en GitHub.  
+  ![No se ha podido cargar la imagen](https://github.com/pedrodebon/Repo01/blob/main/Img/15.%20url%20repo.JPG?raw=true "")
+  
+  Segundo, usaremos el comando Git Clone "url" en GitBash para clonar el repositorio en local.  
+  ![No se ha podido cargar la imagen](https://github.com/pedrodebon/Repo01/blob/main/Img/16.%20clone.JPG?raw=true "")
+  
+  Aqui termina el ReadMe. Para mas preguntas, no dude en ponerse en contacto conmigo. 
+
+  Pedro Debón
