@@ -70,9 +70,16 @@
   ### Subir todos los cambios al repositorio remoto
   El ultimo paso es mostrar los resultados de los cambios que hemos ido haciendo desde el repositorio local al remoto y viceversa. 
   
-  ####Local a Remoto
+  #### Local a Remoto
   
   
-  ####Remoto a Local
+  #### Remoto a Local
+  GitHub te permite modificar ciertos archivos desde su pagina como los .txt o .md. En la siguiente captura, he hecho una serie de modificaciones al 
+  archivo readme.md y con el comando Git Pull traere todos los cambios que he hecho en remoto hasta el local. 
   
+  Ejemplo de modificacion desde GitHub: 
+  ![No se ha podido cargar la imagen](11.remoto a local "")
+  
+  El resultado que muestra Git Bash tras el pull con los nuevos cambios. 
+  ![No se ha podido cargar la imagen](12.pull "")
   
